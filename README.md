@@ -209,44 +209,6 @@ Reset session data
 - **Access Control** - Identity verification and monitoring
 - **Behavioral Analysis** - Unusual activity detection
 
-## 🛠️ Advanced Features
-
-### Eye Detection Algorithms
-
-The system uses sophisticated computer vision techniques:
-
-```python
-def detect_eyes_in_face(face_roi):
-    """
-    Advanced eye detection with multiple parameters:
-    - Eye count verification
-    - Eye area ratio calculation
-    - Position analysis
-    - Closed eye detection
-    """
-    eyes = eye_cascade.detectMultiScale(
-        face_roi,
-        scaleFactor=1.1,
-        minNeighbors=5,
-        minSize=(10, 10),
-        maxSize=(50, 50)
-    )
-    return eyes_detected, eye_ratio, eyes_count, eyes
-```
-
-### Behavior Analysis Engine
-
-```python
-def analyze_eye_behavior(eyes_detected, eye_ratio, eyes_count):
-    """
-    Intelligent behavior analysis:
-    - Looking away detection
-    - Closed eyes identification
-    - Multiple face detection
-    - Suspicious pattern recognition
-    """
-    return suspicious, confidence, details
-```
 
 ## 📊 Performance Metrics
 
@@ -290,25 +252,6 @@ Enable debug logging:
 app.run(debug=True, threaded=True)
 ```
 
-## 🤝 Contributing
-
-We welcome contributions! Please follow these steps:
-
-1. **Fork the repository**
-2. **Create a feature branch**
-   ```bash
-   git checkout -b feature/amazing-feature
-   ```
-3. **Commit your changes**
-   ```bash
-   git commit -m 'Add amazing feature'
-   ```
-4. **Push to the branch**
-   ```bash
-   git push origin feature/amazing-feature
-   ```
-5. **Open a Pull Request**
-
 ### Development Guidelines
 
 - Follow PEP 8 for Python code
@@ -328,22 +271,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Tailwind CSS** - UI styling
 - **Lucide React** - Icon library
 
-## 📞 Support
-
-- **Documentation**: [Wiki](https://github.com/yourusername/smart-monitor-pro/wiki)
-- **Issues**: [GitHub Issues](https://github.com/yourusername/smart-monitor-pro/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/smart-monitor-pro/discussions)
-
-## 🎖️ Badges
-
-![Build Status](https://img.shields.io/github/workflow/status/yourusername/smart-monitor-pro/CI)
-![License](https://img.shields.io/github/license/yourusername/smart-monitor-pro)
-![Stars](https://img.shields.io/github/stars/yourusername/smart-monitor-pro)
-![Forks](https://img.shields.io/github/forks/yourusername/smart-monitor-pro)
-![Issues](https://img.shields.io/github/issues/yourusername/smart-monitor-pro)
-
 ---
 
-**Made with ❤️ by [Your Name]**
+**Made with ❤️ by [Gavin hemsanda]**
 
 *Smart Monitor Pro - Where AI meets security and productivity*
