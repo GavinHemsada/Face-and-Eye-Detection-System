@@ -61,8 +61,8 @@ A comprehensive monitoring solution that combines computer vision, facial recogn
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/smart-monitor-pro.git
-   cd smart-monitor-pro
+   git https://github.com/GavinHemsada/Face-and-Eye-Detection-System.git
+   cd Face-and-Eye-Detection-System
    ```
 
 2. **Install Python dependencies**
@@ -198,11 +198,6 @@ Reset session data
 - **Online Exams** - Prevent cheating during remote assessments
 - **Virtual Classrooms** - Monitor student engagement and attention
 - **Study Sessions** - Track focus and productivity
-
-### 🏢 Corporate
-- **Remote Work** - Productivity monitoring and time tracking
-- **Security** - Access control and unauthorized presence detection
-- **Training** - Attention monitoring during training sessions
 
 ### 🔒 Security
 - **Facility Monitoring** - Automated surveillance systems
